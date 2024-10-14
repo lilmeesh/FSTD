@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tell Me How You Really Feel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Playfair Display', serif;
         }
         .title {
-            font-family: 'Bangers', cursive;
+            font-family: 'Playfair Display', serif;
         }
         .sparkle::before,
         .sparkle::after {
@@ -27,10 +27,14 @@
             border-radius: 10px;
             margin: 20px 0;
         }
+        .sparkle-bg {
+            background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 0L13 7L20 10L13 13L10 20L7 13L0 10L7 7L10 0Z" fill="%23FFD700"/></svg>');
+            background-repeat: repeat;
+        }
     </style>
 </head>
 <body class="min-h-screen bg-gray-100 text-gray-800">
-    <header class="bg-gradient-to-r from-pink-400 to-purple-400 py-20 px-4">
+    <header class="sparkle-bg py-20 px-4">
         <div class="container mx-auto text-center">
             <h1 class="title text-6xl font-extrabold mb-4 text-white"><span class="sparkle">Tell Me How You Really Feel</span></h1>
             <p class="text-2xl mb-8 text-white">"Where passion for film meets tech-savvy critique" (as if that's a thing)</p>
@@ -43,7 +47,7 @@
 
     <main class="container mx-auto px-4 py-16">
         <section class="mb-20">
-            <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Latest Episode (Prepare Your Ears)</h2>
+            <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Latest Episode</h2>
             <div class="bg-white p-8 rounded-lg shadow-lg">
                 <h3 class="text-3xl font-bold mb-4 text-purple-600">Nobody Wants This: A Deep Dive (But We're Doing It Anyway)</h3>
                 <p class="text-xl mb-4">
@@ -77,8 +81,8 @@
         <section id="listen" class="mb-20">
             <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Listen to Our Podcast</h2>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="#" class="bg-black text-white px-8 py-3 rounded-full text-xl font-bold hover:bg-gray-800 transition-colors duration-300">Spotify</a>
-                <a href="#" class="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-8 py-3 rounded-full text-xl font-bold hover:from-pink-600 hover:to-yellow-600 transition-colors duration-300">Apple Podcasts</a>
+                <a href="#" class="sparkle-bg text-purple-600 px-8 py-3 rounded-full text-xl font-bold hover:opacity-80 transition-opacity duration-300">Spotify</a>
+                <a href="#" class="sparkle-bg text-purple-600 px-8 py-3 rounded-full text-xl font-bold hover:opacity-80 transition-opacity duration-300">Apple Podcasts</a>
             </div>
         </section>
 
