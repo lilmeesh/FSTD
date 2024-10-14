@@ -27,14 +27,13 @@
             border-radius: 10px;
             margin: 20px 0;
         }
-        .sparkle-bg {
-            background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 0L13 7L20 10L13 13L10 20L7 13L0 10L7 7L10 0Z" fill="%23FFD700"/></svg>');
-            background-repeat: repeat;
+        .sunset-bg {
+            background: linear-gradient(to bottom, #FF6B6B, #FCA5A5, #FFDAB9);
         }
     </style>
 </head>
 <body class="min-h-screen bg-gray-100 text-gray-800">
-    <header class="sparkle-bg py-20 px-4">
+    <header class="sunset-bg py-20 px-4">
         <div class="container mx-auto text-center">
             <h1 class="title text-6xl font-extrabold mb-4 text-white"><span class="sparkle">Tell Me How You Really Feel</span></h1>
             <p class="text-2xl mb-8 text-white">"Where passion for film meets tech-savvy critique" (as if that's a thing)</p>
@@ -43,9 +42,25 @@
         </div>
     </header>
 
-    <div class="quote">"I award you no points, and may God have mercy on your soul." - Billy Madison (Our rating system in a nutshell)</div>
-
     <main class="container mx-auto px-4 py-16">
+        <section class="mb-20">
+            <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Meet Your Hosts (The Culprits)</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/T03NX240W-U016YU563U4-c5318bbbe407-512-wqQ4k7mrrcIFQRgK8reQ7s7yhqVrg3.png" alt="Hannah Ledeen" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-2xl font-bold mb-2 text-purple-600">Hannah Ledeen</h3>
+                    <p class="text-gray-600">Tech-savvy critic with a keen eye for innovative filmmaking techniques. "Stop looking at me, swan!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/T03NX240W-U04042GHATD-0297b4a82bea-512-1-X99avm7H98vpBAezg9HHhknQAzHOvi.png" alt="Michelle Serra" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-2xl font-bold mb-2 text-purple-600">Michelle Serra</h3>
+                    <p class="text-gray-600">Film enthusiast with a passion for cinematography and visual storytelling. "That's quacktastic!"</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="quote">"I award you no points, and may God have mercy on your soul." - Billy Madison (Our rating system in a nutshell)</div>
+
         <section class="mb-20">
             <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Latest Episode</h2>
             <div class="bg-white p-8 rounded-lg shadow-lg">
@@ -81,28 +96,12 @@
         <section id="listen" class="mb-20">
             <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Listen to Our Podcast</h2>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="#" class="sparkle-bg text-purple-600 px-8 py-3 rounded-full text-xl font-bold hover:opacity-80 transition-opacity duration-300">Spotify</a>
-                <a href="#" class="sparkle-bg text-purple-600 px-8 py-3 rounded-full text-xl font-bold hover:opacity-80 transition-opacity duration-300">Apple Podcasts</a>
+                <a href="#" class="bg-purple-600 text-white px-8 py-3 rounded-full text-xl font-bold hover:bg-purple-700 transition-colors duration-300">Spotify</a>
+                <a href="#" class="bg-purple-600 text-white px-8 py-3 rounded-full text-xl font-bold hover:bg-purple-700 transition-colors duration-300">Apple Podcasts</a>
             </div>
         </section>
 
         <div class="quote">"Here's looking at you, kid." - Casablanca (We're looking at all the movies, actually)</div>
-
-        <section>
-            <h2 class="title text-4xl font-bold mb-8 text-center text-purple-600">Meet Your Hosts (The Culprits)</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/T03NX240W-U016YU563U4-c5318bbbe407-512-wqQ4k7mrrcIFQRgK8reQ7s7yhqVrg3.png" alt="Hannah Ledeen" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-purple-600">Hannah Ledeen</h3>
-                    <p class="text-gray-600">Tech-savvy critic with a keen eye for innovative filmmaking techniques. "Stop looking at me, swan!"</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/T03NX240W-U04042GHATD-0297b4a82bea-512-1-X99avm7H98vpBAezg9HHhknQAzHOvi.png" alt="Michelle Serra" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
-                    <h3 class="text-2xl font-bold mb-2 text-purple-600">Michelle Serra</h3>
-                    <p class="text-gray-600">Film enthusiast with a passion for cinematography and visual storytelling. "That's quacktastic!"</p>
-                </div>
-            </div>
-        </section>
     </main>
 
     <div class="quote">"I'll be back." - The Terminator (Unlike some of the movies we review)</div>
